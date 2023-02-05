@@ -71,7 +71,7 @@ margin-right: 50px;
 
   
  .banner{
-  background-image: url(assets/banner.jpg);
+  background-image: url(../assets/banner.jpg);
   height: 900px;
   background-position: center;
   background-repeat: no-repeat;
@@ -107,7 +107,7 @@ margin-right: 50px;
  }
 
    .character{
-  background-image: url(assets/dk.JPG);
+  background-image: url(../assets/dk.JPG);
   height: 900px;
   background-position: center;
   background-repeat: no-repeat;
