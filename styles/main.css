@@ -72,7 +72,7 @@ margin-right: 50px;
 
   
  .banner{
-  background-image: url(/assets/banner.jpg);
+  background-image: url(../assets/banner.jpg);
   height: 900px;
   background-position: center;
   background-repeat: no-repeat;
@@ -108,7 +108,7 @@ margin-right: 50px;
  }
 
    .character{
-  background-image: url(/assets/dk.jpg);
+  background-image: url(../assets/dk.jpg);
   height: 900px;
   background-position: center;
   background-repeat: no-repeat;
@@ -208,7 +208,7 @@ input[type=text], input[type=password] {
   .joinus{
     position: relative;
     display: flex;
-    background-image: url(/assets/joinus.jpg);
+    background-image: url(../assets/joinus.jpg);
     height: 460px;
     align-items: center;
     justify-content: center;
