@@ -72,7 +72,7 @@ margin-right: 50px;
 
   
  .banner{
-  background-image: url(../assets/banner.jpg);
+  background-image: url("../assets/banner.jpg");
   height: 900px;
   background-position: center;
   background-repeat: no-repeat;
