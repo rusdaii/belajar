@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+}
+
+/* NAVIGATION */
+
+.header{
+    width: 100%;
+    height: 80px;
+    background: #000000;
+}
+
+.header .logo{
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    float: left;
+    color: #fff;
+}
+
+.header .logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .navigation {
+    float: left;
+    margin-top: 30px;
+    height: 0px;
+}
+
+.header .navigation li {
+    font-size: 20px;
+    float: left;
+    margin-left: 60px;
+    display: block;
+}
+
+.header .navigation li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .navigation li a:hover{
+    color: rgb(46, 170, 164);
+    text-decoration: none;
+}
+
+.header .login {
+float: right;
+margin-top: 30px;
+margin-right: 50px;
+}
+
+
+.header .login li {
+    font-size: 20px;
+    float: left;
+    margin-left: 60px;
+    display: block;
+}
+
+.header .login li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .login li a:hover{
+    color: rgb(46, 170, 164);
+    text-decoration: none;
+}
+
+/* SHOP PAGE */
+
+.shop{
+    background-image: url(/assets/pay_package_visual_top.png);
+    background-repeat: no-repeat;
+    padding-top: 10px;
+   }
+
+.shop h1{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    color: #ffffff;
+   }
+
+   .shop p{
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+   }
+
+   .shop #package_shop{
+   display: flex;
+   justify-content: center;
+   padding-top: 50px;
+   
+   }
+
+   .shop li{
+    text-align: left;
+   }
+
+  .shop .pack1 {
+    width: 350px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #ffffff;
+    padding-top: 50px;
+    box-shadow: 2px 1px 15px 1px rgb(34, 34, 34);
+   }
+
+   
+   .shop .pack2 {
+    width: 350px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-left: 50px;
+    padding-top: 50px;
+    box-shadow: 2px 1px 15px 1px rgb(34, 34, 34);
+   }
+
+   .shop .pack3 { 
+    width: 350px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-left: 50px;
+    padding-top: 50px;
+    box-shadow: 2px 1px 15px 1px rgb(34, 34, 34);
+   }
+
+   .purchasebtn{
+    display: inline-block;
+    background-color: #725945;
+    width: 250px;
+    padding: 15px;
+   
+  }
+
+    .btn a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+    .btn :hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+   .shop hr{
+    width: 250px;
+    color: #000000;
+   } 
+
+   .package_detail .package_inner{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+   }
+
+   .package_detail .package_inner p{
+    line-height: 10px;
+   }
+
+   /* FOOTER */
+
+  .footer {
+    text-align: center;
+    background-color: #1e2129;
+    padding-bottom: 30px;
+  }
+
+  .footer .copyright{
+    color: #ffffff;
+    font-size: 15px;
+  }
+
+  .footer .inner_footer{
+    background-color: #1e2129;
+    padding: 50px;
+  }
+
+  .footer .inner_footer a {
+    margin: 15px;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .footer .inner_footer :hover{
+    text-decoration: underline;
+  }
