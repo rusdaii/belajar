@@ -73,7 +73,7 @@ margin-right: 50px;
 /* SHOP PAGE */
 
 .shop{
-    background-image: url(/assets/pay_package_visual_top.png);
+    background-image: url("../assets/pay_package_visual_top.png");
     background-repeat: no-repeat;
     padding-top: 10px;
    }
