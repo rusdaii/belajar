@@ -198,7 +198,7 @@ input[type=text], input[type=password] {
   .joinus{
     position: relative;
     display: flex;
-    background-image: url(/assets/joinus.jpg);
+    background-image: url("./assets/joinus.jpg");
     height: 460px;
     align-items: center;
     justify-content: center;
